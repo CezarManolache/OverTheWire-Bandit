@@ -1,0 +1,17 @@
+# Bandit Level 0 → 1
+
+## **Goal**
+* Log into the server using SSH with the given credentials
+
+## **Explanation**
+* This level introduces **SSH (Secure Shell)**, a protocol used to securely connect to remote systems.
+* You are provided with:
+  * Host: `bandit.labs.overthewire.org`
+  * Port: `2220`
+  * Username: `bandit0`
+  * Password: `bandit0`
+
+## **Solution**
+* Run the following command:
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
