@@ -34,7 +34,7 @@
 ### **Solution**
 * First we check as a good practice , the directory in which we are in using `pwd` , we see that we are in the `/home/bandit0`.
 * Then we do `ls -l` to check the files in the user's home directory , we find the `readme` file and we do `cat readme` to open it and get the key.
-* Key: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+* Key: [REDACTED]
 
 ---
 
@@ -50,7 +50,7 @@
 
 ### **Solution**
 * Use the relative path `./-` to read the password: `cat ./-`
-* Doing so we receive the next key: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+* Doing so we receive the next key: [REDACTED]
 
 ---
 
@@ -69,7 +69,7 @@
 
 ### **Solution**
 * Read the password from the file using: `cat "./--spaces in this filename--"`
-* Doing so we've received the key: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+* Doing so we've received the key: [REDACTED]
 
 ## Bandit Level 3 → Level 4
 
@@ -84,7 +84,7 @@
 ### **Solution**
 * Change into the `inhere` directory: cd inhere
 * After that we must do `ls -la` to find the hidden file "...Hiding-From-You" , only then we can do `cat ...Hiding-From-You`. 
-* Doing so we've received the key: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+* Doing so we've received the key: [REDACTED]
 
 ## Bandit Level 4 → Level 5
 
@@ -101,5 +101,5 @@
 * Change into the `inhere` directory: `cd inhere`
 * After that we do `ls -l` and we see many files , but none really stand out , so we must do `file ./*` to find the human-readable (ASCII text) file. The file was `-file07`.
 * Only thing left to do now is to do `cat ./-file07` and done.
-* Thus we now have our key: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+* Thus we now have our key: [REDACTED]
 
