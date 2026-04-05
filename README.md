@@ -15,16 +15,5 @@ The goal of this lab is to master the Linux command line and basic security conc
 * **SSH:** For remote access to the labs.
 * **CoreUtils:** `ls`, `cat`, `grep`, `find`, `du`, `file`.
 * **Data Processing:** `base64`, `tr`, `sort`, `uniq`.
-
 ---
 
-### 📑 LEVEL_LOG (Progress Tracker)
-
-| Level | Focus | Key Commands | Status |
-| :--- | :--- | :--- | :--- |
-| **0** | SSH Basics | `ssh` | ✅ Completed |
-| **1-5** | File Navigation | `cat`, `find`, `du` | ⏳ In Progress |
-| **6-10** | Data Filtering | `grep`, `sort`, `uniq` | 🔴 Locked |
-| **11+** | Cryptography | `base64`, `rot13` | 🔴 Locked |
-
----
