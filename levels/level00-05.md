@@ -16,7 +16,7 @@
 ### **Solution**
 * Run the following command:
 
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+`ssh bandit0@bandit.labs.overthewire.org -p 2220`
 
 ---
 
