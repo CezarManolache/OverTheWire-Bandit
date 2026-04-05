@@ -1,8 +1,8 @@
 # 🚩 OverTheWire: Bandit - Security Lab Log
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-In--Progress-00FF41?style=for-the-badge&logo=linux&logoColor=00FF41&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Platform-OverTheWire-00FF41?style=for-the-badge&logo=overthewire&logoColor=00FF41&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Status-Active_Lab-white?style=for-the-badge&logo=linux&logoColor=white&labelColor=333333" />
+  <img src="https://img.shields.io/badge/Platform-Bandit_OTW-white?style=for-the-badge&labelColor=000000" />
 </p>
 
 ### 📖 Description
