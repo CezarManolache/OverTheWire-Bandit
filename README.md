@@ -7,7 +7,7 @@
 
 ### 📖 Description
 This repository contains my technical notes, commands used, and concepts learned while completing the **Bandit** wargame from OverTheWire. 
-The goal of this lab is to master the Linux command line and basic security concepts required for entry-level penetration testing.
+The goal of this lab is to master the Linux command line and basic security concepts.
 
 ---
 
