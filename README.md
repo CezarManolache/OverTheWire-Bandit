@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/Platform-Bandit_OTW-white?style=for-the-badge&labelColor=000000" />
 </p>
 ---
+
 ## ⚠️ Disclaimer: Read Before Proceeding!
 
 This repository contains **write-ups and methodologies** for the OverTheWire wargames. 
