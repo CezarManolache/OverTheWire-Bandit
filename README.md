@@ -17,7 +17,7 @@ If you are here to learn, please keep the following in mind:
 3. **Understand the "Why":** Don't just look at the command. Read the **"Tech Focus"** or **"Learning"** sections to understand the logic behind the method.
 4. **No Credentials:** In accordance with OverTheWire rules, this repository **DOES NOT** contain the final passwords (flags). You must run the commands yourself on the server to obtain them.
 
-> *"Hacking is not about the destination (the password), it's about the journey (the process)."*
+> *"Hacking is not about the destination, it's about the knowledge we acquired throughout the journey."*
 
 ---
 ## 🗺️ Roadmap & Skills Acquired
