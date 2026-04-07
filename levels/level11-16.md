@@ -154,4 +154,5 @@ PORT      STATE SERVICE
 * After we enter the correct password , we receive an RSA private key that we must use to login into the next level
 * We save it into our machine in a file as **key** , we copy the RSA contents into it and after we save.
 * To connect to the next level we use : `ssh -i key bandit17@bandit.labs.overthewire.org -p 22200`
+* Thus the key is : EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
 
