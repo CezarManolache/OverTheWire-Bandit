@@ -14,7 +14,7 @@ If you are here to learn, please keep the following in mind:
 
 1. **Don't Just Copy-Paste:** The goal of these games is to develop your critical thinking and Linux skills. If you only copy the commands, you won't learn anything.
 2. **Try First:** Attempt to solve the level on your own for at least 30-60 minutes before looking at the solution.
-3. **Understand the "Why":** Don't just look at the command. Read the **"Tech Focus"** or **"Learning"** sections to understand the logic behind the method.
+3. **Understand the "Why":** Don't just look at the command. Read the **"Tech Focus"** or **"Explanation"** sections to understand the logic behind the method.
 4. **No Credentials:** In accordance with OverTheWire rules, this repository **DOES NOT** contain the final passwords (flags). You must run the commands yourself on the server to obtain them.
 
 > *"Hacking is not about the destination, it's about the knowledge we acquired throughout the journey."*
