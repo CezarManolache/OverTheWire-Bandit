@@ -21,7 +21,7 @@
 * The filter for finding a file of **1033 bytes** is `-size 1033c`
 * Now to make sure it is **NOT** executable we do the negation `!` before `-executable`
 * After running the command we find that our file is located in: **./maybehere07/.file2**
-* The key found : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+* The key found : [Redacted]
 
 ---
 
@@ -50,7 +50,7 @@
 ## **Solution**
 * Use `find` with all required filters: `find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null`
 * In return we were given the correct path to the file: **/var/lib/dpkg/info/bandit7.password** , after using cat we got the right key.
-* The key for the next level is : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+* The key for the next level is : [Redacted]
 
 ---
 
@@ -74,7 +74,7 @@
 * Open the file: `vim data.txt`
 * Search for the keyword using `/millionth` inside vim.
 * You will see among other lines , the line we've been searching for **millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc**
-* The key to the next level: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+* The key to the next level: [Redacted]
 
 ---
 
@@ -92,7 +92,7 @@
 ## **Solution**
 * Sort the file and find the unique line: `sort data.txt | uniq -u`
 * Searching the manual i found out about the  **-u** flag that lets me only get back the words that appear only once.
-* After running the command I've received successfully the key to the next level: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+* After running the command I've received successfully the key to the next level: [Redacted]
 
 ---
 
@@ -111,7 +111,7 @@
 ## **Solution**
 * Extract readable strings and filter the relevant line: `strings data.txt | grep "="` 
 * Doing so couple of lines were printed containing "=" , but knowing the password format it was easy to pick the right one.
-* Thus the password is: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+* Thus the password is: [Redacted]
 
 ---
 
@@ -131,4 +131,4 @@
 ## **Solution**
 * I decoded the file , using the long format of the `-d` flag (`--decode`) just for clarity purposes: `base64 --decode data.txt`
 * The following line was printed out: **The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr**
-* Meaning that the key for the next level is: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr  
+* Meaning that the key for the next level is: [Redacted]  
