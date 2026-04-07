@@ -13,7 +13,7 @@
 ## **Solution**
 * ROT13 being a simple letter substitution cipher that replaces a letter with the 13th letter after it in the Latin alphabet the new alphabet starts at N goes to Z and then goes again from A to M.
 * Applying the ROT13 to decode the file we get: `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
-* Thus the key is : 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+* Thus the key is : [Redacted]
 
 ---
 
@@ -52,7 +52,7 @@ gunzip data8.gz
 ### 10. Show password
 cat data8
 * In the end after lots of decompressing we get to the ASCII Text file and we can finally see the key to the next level
-* The key being: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+* The key being: [Redacted]
 
 ---
 
@@ -79,7 +79,7 @@ cat data8
 * After that we can finally do: `ssh -i bandit14.key bandit14@bandit.labs.overthewire.org -p 2220`
 * The `-i` parameter specifies the file that contains the private key.
 * In the end after I got logged in into the **bandit14** user I did: `cat /etc/bandit_pass/bandit14` to get the real password.
-* The final key being: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+* The final key being: [Redacted]
 
 ---
 
@@ -106,7 +106,7 @@ cat data8
 * I opened a connection to port 30000: `nc localhost 30000`
 * Entered the password from the previous level: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 * A message appeared **Correct!** followed by the key to the next level.
-* The key is: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+* The key is: [Redacted]
 
 ---
 
@@ -127,7 +127,7 @@ Retrieve the password for the next level by submitting the current level’s pas
 
 ## **Solution**
 * We can use `nc -ssl localhost 30001` , after that we just enter the password **8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo**
-* We received the new key: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+* We received the new key: [Redacted]
 
 ---
 
@@ -154,5 +154,5 @@ PORT      STATE SERVICE
 * After we enter the correct password , we receive an RSA private key that we must use to login into the next level
 * We save it into our machine in a file as **key** , we copy the RSA contents into it and after we save.
 * To connect to the next level we use : `ssh -i key bandit17@bandit.labs.overthewire.org -p 22200`
-* Thus the key is : EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+* Thus the key is : [Redacted]
 
